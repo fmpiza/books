@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Book Selling</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" type="text/css" href="assets/icomoon/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/chocolat/js/chocolat.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Work Sans
+:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- script
+	================================================== -->
+	<script src="js/modernizr.js"></script>
+
+</head>
+<body>
+
+<div id="overlayer">
+	<span class="loader">
+	  <span class="loader-inner"></span>
+	</span>
+</div>
+
+<div class="nav nav-overlay">
+	<div class="nav__content">
+		<ul class="nav__list">
+			<li class="nav__list-item active-nav"><a href="#" class="hover-target">Home</a></li>
+			<li class="nav__list-item"><a href="styles.html" class="hover-target">Authors</a></li>
+			<li class="nav__list-item"><a href="blog.html" class="hover-target">Buy</a></li>
+			<li class="nav__list-item"><a href="single-post.html" class="hover-target">Reviews</a></li>
+			<li class="nav__list-item"><a href="contact.html" class="hover-target">Help</a></li>
+		</ul>
+	</div>
+</div>
+
+<header id="header">
+	<div class="header-wrap" data-aos="fade">
+		<div class="main-logo">
+			<a href="index.html"><img src="images/books.jpeg" width="300" alt="Image" class="img-fluid"></a>
+		</div><!--main-logo-->
+
+		<nav id="navbar">
+			<input id="menu-toggle" type="checkbox" />
+			<label class="menu-btn" for="menu-toggle">
+			<span></span>
+			</label>
+		</nav>	
+
+	</div><!--header-wrap-->
+</header>
+
+<div id="billboard" class="jarallax" data-jarallax data-video-src="https://player.vimeo.com/video/538579665">
+	<div class="container">
+		
+		<div class="banner-content">
+			<div class="banner-header">
+				<h2 class="display-9">Online Book<br/>  Selling Platform</h2>
+				<p>We bridge the gap between the Authors and Customers</p>
+
+				<a href="https://wa.me/255653740098" class="btn btn-primary btn-large">Get in touch</a>
+			</div>
+		</div>
+		
+	</div>
+	
+</div><!--billboard-->
+
+<section id="about-me" class=" padding-large">
+	<div class="container">
+		<div class="row">
+			<div class="section-header mb-5">
+				<h2 class="display-8 m-0"><b>Our Targets</b></h2>
+				<span>A platform has the following targets</span>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="info-box" data-aos="fade-zoom-in" data-aos-delay="0">
+					<div class="icon"><iconify-icon icon="la:edit"></div>
+					<h3>Online Books Selling</h3>
+					<p>Authors can now sell their books online to their customers</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="info-box" data-aos="fade-zoom-in" data-aos-delay="300">
+					<div class="icon"><iconify-icon icon="la:gitter"></div>
+					<h3>Connect Authors with Customers</h3>
+					<p>Now both customers and authors can meet and do business</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="info-box" data-aos="fade-zoom-in" data-aos-delay="600">
+					<div class="icon"><iconify-icon icon="la:jira"></div>
+					<h3>Enhance reliability and security</h3>
+					<p>Level of security and patent rights for sold books can now be well improved</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="portfolio" class="overflow-hidden mb-5">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-8">
+				<div class="section-header d-flex align-items-center mb-5">
+					
+					<a href="#" class="btn-link ml-3 text-dark text-decoration-none">Recent Books
+
+
+
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="swiper-buttons">
+	          		<div class="swiper-button portfolio-carousel-prev">←</div>
+					<div class="swiper-button portfolio-carousel-next">→</div>
+          		</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+				<div class="portfolio-carousel swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<figure class="portfolio-item">
+								<a href="images/book2.jpeg" class="image-link"><img src="images/book4.jpeg" width="230" class="image"></a>
+								<figcaption class="portfolio-title">
+									Furaha Ya Moyo
+										<p>Author: Johnson Benard</p> 
+								</figcaption>
+							</figure>
+						</div>
+						<div class="swiper-slide">
+							<figure class="portfolio-item">
+								<a href="images/book4.jpeg" class="image-link"><img src="images/book1.jpeg" width="230" class="image"></a>
+								<figcaption class="portfolio-title">
+									Simulizi Ya Kusisimua
+									 <p>Author: Sarah Aloyce</p>
+									
+								</figcaption>
+							</figure>
+						</div>
+						<div class="swiper-slide">
+							<figure class="portfolio-item">
+								<a href="images/book1.jpeg" class="image-link"><img src="images/book2.jpeg" width="230" class="image"></a>
+								<figcaption class="portfolio-title">
+									Suprise <p>Author: Abdallah Hussein</p> 
+									
+								</figcaption>
+							</figure>
+						</div>
+						<div class="swiper-slide">
+							<figure class="portfolio-item">
+								<a href="images/book2.jpeg" class="image-link"><img src="images/book2.jpeg" width="230" class="image"></a>
+								<figcaption class="portfolio-title">
+									Maisha Ya Ndoa<p>Author: Janeth Urassa</p> 
+								</figcaption>		
+							</figure>
+						</div>
+						<div class="swiper-slide">
+							<figure class="portfolio-item">
+								<a href="images/book2.jpeg" class="image-link"><img src="images/book2.jpeg" width="230" class="image"></a>
+								<figcaption class="portfolio-title">
+									Human Psychology <p>Author: Aggrey Obedi</p> 
+								</figcaption>		
+							</figure>
+						</div>
+						<div class="swiper-slide">
+							<figure class="portfolio-item">
+								<a href="images/book1.jpeg" class="image-link"><img src="images/book1.jpeg" width="230" class="image"></a>
+								<figcaption class="portfolio-title">
+									Kusadikika <p>Author: Linus Sixberth</p>
+								</figcaption>
+							</figure>
+						</div>
+						
+					</div>
+				</div>
+
+				
+			</div>
+
+		</div>
+	</div>		
+</section>
+
+<section class="bg-grey padding-large">
+	<div class="container">
+		<div class="row">
+			<div class="section-header align-center mb-5">
+				<h2 class="display-8 m-0"><b>Our Partners</b></h2>
+				<span>We have worked with great patners for which we are very proud.</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 overflow-hidden">
+				<div id="clients-carousel" class="swiper clients-carousel">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="images/crdb.jpg" width="120"/></div>
+						<div class="swiper-slide"><img src="images/nbc.jpg" width="120"/></div>
+						<div class="swiper-slide"><img src="images/nmb.jpg" width="120"/></div>
+						<div class="swiper-slide"><img src="images/crdb.jpg" width="120"/></div>
+						<div class="swiper-slide"><img src="images/nmb.jpg" width="120"/></div>
+						<div class="swiper-slide"><img src="images/nbc.jpg" width="120"/></div>
+						<div class="swiper-slide"><img src="images/crdb.jpg" width="120"/></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="achievement" class="padding-large">
+	<div class="container">
+		<div class="row">
+			<div class="section-header align-center mb-5">
+				<h2 class="display-8 m-0"><b>Book Covers</b></h2>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card mb-4" data-aos="fade-zoom-in" data-aos-delay="0">
+				  <div class="card-body">
+				    <p><img src="images/book3.jpeg" width="120" alt="Image" class="img-fluid"></p>
+				    <h4 class="card-title">Huruma Ya Mungu</h4>
+					<p>Author: Pamela Sixberth</p>
+					<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="blue">Read Only</font></b></a>
+					
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4" data-aos="fade-zoom-in" data-aos-delay="300">
+				  <div class="card-body">
+				    <p><img src="images/book2.jpeg" width="120" alt="Image" class="img-fluid"></p>
+				    <h4 class="card-title">The Best Advice</h4>
+					<p>Author: Rehema Humphrey</p>
+					<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="blue">Read Only</font></b></a>
+					
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4" data-aos="fade-zoom-in" data-aos-delay="600">
+				  <div class="card-body">
+				    <p><img src="images/book4.jpeg" width="120" alt="Image" class="img-fluid"></p>
+				    <h4 class="card-title">Suprise</h4>
+					<p>Author: Jumanne Kihiyo</p>
+					<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="blue">Read Only</font></b></a>
+					
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4" data-aos="fade-zoom-in" data-aos-delay="300">
+				  <div class="card-body">
+				    <p><img src="images/book2.jpeg" width="120" alt="Image" class="img-fluid"></p>
+				    <h4 class="card-title">The Best Advice</h4>
+					<p>Author: Rehema Humphrey</p>
+					<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="blue">Read Only</font></b></a>
+					
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4" data-aos="fade-zoom-in" data-aos-delay="300">
+				  <div class="card-body">
+				    <p><img src="images/book1.jpeg" width="120" alt="Image" class="img-fluid"></p>
+				    <h4 class="card-title">The Best Advice</h4>
+					<p>Author: Rehema Humphrey</p>
+					<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="blue">Read Only</font></b></a>
+					
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4" data-aos="fade-zoom-in" data-aos-delay="300">
+				  <div class="card-body">
+				    <p><img src="images/book3.jpeg" width="120" alt="Image" class="img-fluid"></p>
+				    <h4 class="card-title">The Best Advice</h4>
+					<p>Author: Rehema Humphrey</p>
+					<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="blue">Read Only</font></b></a>
+					
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4" data-aos="fade-zoom-in" data-aos-delay="900">
+				  <div class="card-body">
+				    <p><img src="images/book1.jpeg" width="120" alt="Image" class="img-fluid"></p>
+				    <h4 class="card-title">Siri Ya Mafanikio</h4>
+					<p>Author: Janeth Steven</p>
+					<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="blue">Read Only</font></b></a>
+					
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4" data-aos="fade-zoom-in" data-aos-delay="1200">
+				  <div class="card-body">
+				    <p><img src="images/book2.jpeg" width="120" alt="Image" class="img-fluid"></p>
+				    <h4 class="card-title">Furaha Ni Tumaini</h4>
+					<p>Author: Grace Urassa</p>
+				    <span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="blue">Read Only</font></b></a>
+					
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4" data-aos="fade-zoom-in" data-aos-delay="1500">
+				  <div class="card-body">
+				    <p><img src="images/book3.jpeg" width="120" alt="Image" class="img-fluid"></p>
+				    <h4 class="card-title">Possible Things</h4>
+                     <p>Author: Raphael Jonas</p>
+					 <span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="blue">Read Only</font></b></a>
+					
+				  </div>
+				</div>
+			</div>		
+		</div>
+	</div>
+</section>
+<section class="pb-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="milestone">
+					<h3><font size=5>12</font></h3>
+					<p>Years of experience</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="milestone">
+					<h3><font size=5>820</font></h3>
+					<p>Uploaded Books</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="milestone">
+					<h3><font size=5>713</font></h3>
+					<p>Sold Out Books</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="milestone">
+					<h3><font size=5>200</font></h3>
+					<p>Customers</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="testimonials" class="padding-large bg-grey">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-header align-center mb-5">
+					<h2 class="display-8 m-0 dark"><b>Reviews</b></h2>
+					<span>What Clients Say</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+          		<div class="testimonial-carousel swiper overflow-hidden">
+					<div class="swiper-wrapper">
+						
+						<div class="swiper-slide">
+							<div class="card testimonials-inner">
+								<div class="card-body">
+									<p class="card-text mb-2">"Asante DL Bookstore, hakika wewe ni mkombozi wetu"</p>
+									<div class="testimonial-author">
+										<div class="author-detail">
+											<h3 class="name m-0">Janeth Chrispin</h3>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="card testimonials-inner">
+								<div class="card-body">
+									<p class="card-text mb-2">“With a support from DLBookstore, I can now do a very clear online book selling”</p>
+									<div class="testimonial-author">
+										<div class="author-detail">
+											<h3 class="name m-0">Simon Makaranga</h3>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="card testimonials-inner">
+								<div class="card-body">
+									<p class="card-text mb-2">"Uwepo wa DL Bookstore ni furaha yetu waandishi"
+									</p>
+									<div class="testimonial-author">
+										<div class="author-detail">
+											<h3 class="name m-0">Lucas Wolfer</h3>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="card testimonials-inner">
+								<div class="card-body">
+									<p class="card-text mb-2">"DL Bookstore inatufanya tuweze kupaza sauti na kazi zetu ziweze kuonekana kwa wateja wetu" </p>
+									<div class="testimonial-author">
+										<div class="author-detail">
+											<h3 class="name m-0">Jennie Urassa</h3>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="card testimonials-inner">
+								<div class="card-body">
+									<p class="card-text mb-2">“I want to thank DL Bookstore for their intensive support”</p>
+									<div class="testimonial-author">
+										<div class="author-detail">
+											<h3 class="name m-0">Benjamin Kihiyo</h3>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="post-grid" class="padding-large">
+		<div class="container">
+			<div class="row">
+				<div class="section-header align-center mb-5">
+					<h2 class="display-8 m-0"><b>Catalogue</b></h2>
+				
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">						
+					<figure class="post-item">
+						<a href="#" class="post-link"><img src="images/book2.jpeg" width="230" alt="post"></a>
+						<figcaption class="py-4">
+						<div class="meta-wrap">
+							
+						</div>
+						<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="white">Read Only</font></b></a>
+				    
+						</figcaption>
+					</figure>
+				</div>	
+
+				<div class="col-md-4">
+					<figure class="post-item">
+					<a href="#" class="post-link"><img src="images/book1.jpeg" width="230" alt="post"></a>
+					<figcaption class="py-4">
+					<div class="meta-wrap">
+						
+					</div>
+					<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="white">Read Only</font></b></a>
+				    
+					</figcaption>
+				</figure>
+				</div>
+
+				<div class="col-md-4">
+					<figure class="post-item">
+						<a href="#" class="post-link"><img src="images/book2.jpeg" width="230" alt="post"></a>
+						<figcaption class="py-4">
+						<div class="meta-wrap">
+							
+						</div>
+						<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="white">Read Only</font></b></a>
+				    
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">						
+					<figure class="post-item">
+						<a href="#" class="post-link"><img src="images/book1.jpeg" width="230" alt="post"></a>
+						<figcaption class="py-4">
+						<div class="meta-wrap">
+							
+						</div>
+						<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="white">Read Only</font></b></a>
+				    
+						</figcaption>
+					</figure>
+				</div>	
+
+				<div class="col-md-4">
+					<figure class="post-item">
+					<a href="#" class="post-link"><img src="images/book2.jpeg" width="230" alt="post"></a>
+					<figcaption class="py-4">
+					<div class="meta-wrap">
+						
+					</div>
+					<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="white">Read Only</font></b></a>
+				    
+					</figcaption>
+				</figure>
+				</div>
+
+				<div class="col-md-4">
+					<figure class="post-item">
+						<a href="#" class="post-link"><img src="images/book3.jpeg" width="230" alt="post"></a>
+						<figcaption class="py-4">
+						<div class="meta-wrap">
+							
+						</div>
+						<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="white">Read Only</font></b></a>
+				    
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">						
+					<figure class="post-item">
+						<a href="#" class="post-link"><img src="images/book4.jpeg" width="230" alt="post"></a>
+						<figcaption class="py-4">
+						<div class="meta-wrap">
+							
+						</div>
+						<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="white">Read Only</font></b></a>
+				    
+						</figcaption>
+					</figure>
+				</div>	
+
+				<div class="col-md-4">
+					<figure class="post-item">
+					<a href="#" class="post-link"><img src="images/book1.jpeg" width="230" alt="post"></a>
+					<figcaption class="py-4">
+					<div class="meta-wrap">
+	
+					</div>
+					<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="white">Read Only</font></b></a>
+				    
+					</figcaption>
+				</figure>
+				</div>
+
+				<div class="col-md-4">
+					<figure class="post-item">
+						<a href="#" class="post-link"><img src="images/book2.jpeg" width="230" alt="post"></a>
+						<figcaption class="py-4">
+						<div class="meta-wrap">
+							
+							
+						</div>
+						<span><button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success fw-bolder fs-8">Buy</button></span> | <a href="cyber.pdf" class="folder"><b><font color="white">Read Only</font></b></a>
+				    
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title fs-6 fw-bold fs-5" id="exampleModalLabel">Means of Payment</h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  <ul class="molist">
+			  <li>Tigo Pesa : +255 653 740 098, (Name DAUD LUBELEJE)</li>
+			  <li>M-Pesa : +255 764 771 298, Name (DAUD LUBELEJE)</li>
+			  <li>Airtel Money : +255 787 163 013, (Name DAUD LUBELEJE)</li>
+			  
+		  </ul>
+		  <p><b> <font color="green">Please confirm Message sent to Your Email After Making Payment</font></b></p>
+		</div>
+	  </div>
+	</div>
+  </div>
+ 
+
+
+  <footer id="footer" class="padding-xlarge">
+	<div class="container">
+		<div class="row">
+			<div class="footer-menu col-md-4">
+				<div class="footer-intro">					
+					<a href="#" class="logo"><img src="images/books.jpeg" width="320" alt="Image" class="img-fluid"></a>
+				</div>
+				<div class="subscribe">
+					<p>Subscribe to newsletter to get some updates related with marketing, online book selling and more.</p>
+					<input type="text" name="email" placeholder="Write Your Email Address">
+					<button class="btn btn-primary">Subscribe</button>
+				</div>
+			</div>
+
+			<div class="footer-menu col-md-2">
+				<ul class="menu-list">
+					<li class="menu-item"><a href="#">Home</a></li>
+					<li class="menu-item"><a href="#">Books</a></li>
+					<li class="menu-item"><a href="#">Authors</a></li>
+					<li class="menu-item"><a href="#">Help</a></li>
+				</ul>
+			</div>
+
+			
+
+			<div class="footer-menu col-md-4">
+				<div class="footer-address">
+					<p>Just feel free to contact if you wanna collaborate with Us, or simply have a conversation.</p>
+					<div class="mail-address">
+						 <a href="mailto:  support@dlbookstore.com"><font size=4>support@dlbookstore.com</font></a>
+						 
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>	
+
+<div id="footer-bottom" class="padding-medium no-padding-bottom">
+	<div class="container">
+		<div class="row">			
+			<div class="col-md-6">
+				<div class="socila-links">
+					<ul>
+						<li><a href="#"><i class="icon icon-facebook"></i></a></li>
+						<li><a href="#"><i class="icon icon-twitter"></i></a></li>
+						<li><a href="#"><i class="icon icon-behance-square"></i></a></li>
+						<li><a href="#"><i class="icon icon-youtube-play"></i></a></li>
+						<li><a href="#"><i class="icon icon-pinterest-p"></i></a></li>
+					</ul>
+				</div>					
+			</div>
+			<div class="col-md-6 align-right">
+				<div class="copyright">
+					<p>2023. DLBookstore All rights reserved. Dev. by <a href="https://fmpiza.github.io/webfridolin" target="_blank">Fridolin</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="assets/vendor/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/chocolat/js/chocolat.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

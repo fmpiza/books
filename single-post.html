@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Book Selling</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" type="text/css" href="assets/icomoon/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/chocolat/js/chocolat.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Work Sans
+:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- script
+	================================================== -->
+	<script src="js/modernizr.js"></script>
+
+</head>
+<body>
+
+<div id="overlayer">
+	<span class="loader">
+	  <span class="loader-inner"></span>
+	</span>
+</div>
+
+<div class="nav nav-overlay">
+	<div class="nav__content">
+		<ul class="nav__list">
+			<li class="nav__list-item active-nav"><a href="index.html" class="hover-target">Home</a></li>
+			<li class="nav__list-item"><a href="styles.html" class="hover-target">Authors</a></li>
+			<li class="nav__list-item"><a href="blog.html" class="hover-target">Buy</a></li>
+			<li class="nav__list-item"><a href="single-post.html" class="hover-target">Reviews</a></li>
+			<li class="nav__list-item"><a href="contact.html" class="hover-target">Help</a></li>
+		</ul>
+	</div>
+</div>
+<header id="header">
+	<div class="header-wrap" data-aos="fade">
+		<div class="main-logo">
+			<a href="index.html"><img src="images/books.jpeg" width="300" alt="Image" class="img-fluid"></a>
+		</div><!--main-logo-->
+
+		<nav id="navbar">
+			<input id="menu-toggle" type="checkbox" />
+			<label class="menu-btn" for="menu-toggle">
+			<span></span>
+			</label>
+		</nav>	
+
+	</div><!--header-wrap-->
+</header>
+
+<section class="hero-section light jarallax">	
+	<img src="images/book2.jpeg" width="70" class="jarallax-img">
+	<div class="hero-content padding-xlarge">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">	
+							
+					<h1 class="page-title">Reviews</h1>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="padding-large">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="post-content">
+					
+					<blockquote>See how our customers say about our services</blockquote>
+
+					<p>Hello our Customer, kindly you are welcome to drop your comments here for improvement of our services. Welcome!</p>
+
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				
+				<section class="comments-wrap mb-5">
+					<h3>Comments</h3>
+					<div class="comment-list mt-4">
+
+						<article class="flex-container d-flex mb-3">
+							<img src="images/reviewer-3.jpg" alt="default" class="commentorImg">
+							<div class="author-post">
+								<div class="comment-meta d-flex align-items-center gap-3">
+									<h4>Michael Watson</h4>
+									<span class="meta-date">Feb 2,2023</span>
+									<small class="comments-reply"><a href="#">↰ Reply</a></small>
+								</div><!--meta-tags-->
+
+								<p>"DL Bookstore inatufanya tuweze kupaza sauti na kazi zetu ziweze kuonekana kwa wateja wetu.Hasa kipndi ambacho hatuwezi kuonana na wateja wetu mfano kipndi cha Corona au kutokana na changamoto ya umbali. Pamoja na changamoto hizi bado DLBookstore haikuwa nyuma katika kuhakikisha inakuwa msaada mkubwa kwa waandishi wa vitabu nchini Tanzania"</p>
+							</div>
+
+						</article><!--flex-container-->
+
+						<div class="child-comments">
+							<article class="flex-container d-flex">
+								<img src="images/reviewer-4.jpg" alt="sara" class="commentorImg">
+								<div class="author-post">
+									<div class="comment-meta d-flex align-items-center gap-3">
+										<h4>Chris Gyale</h4>
+										<span class="meta-date">Dec 17,2022</span>
+										<small class="comments-reply"><a href="#">↰ Reply</a></small>
+									</div><!--meta-tags-->
+
+									<p>“I want to thank DL Bookstore for their intensive support”</p>
+								</div>
+
+							</article><!--flex-container-->
+						</div><!--child-comments-->
+
+					</div><!--comment-list-->
+
+				</section>
+
+				<section class="comment-respond  mb-5">			
+					<h3>Leave a Comment</h3>
+					<form method="post" class="form-group mt-3">
+						
+						<div class="row">
+							<div class="col-md-6">
+								<input class="form-control" type="text" name="author" id="author" placeholder="Your full name">
+							</div>
+							<div class="col-md-6">
+								<input class="form-control" type="email" name="email" id="email"  placeholder="E-mail Address">
+							</div>
+						</div>
+
+						<div class="row mt-4 d-grid gap-3">
+							<div class="col-md-12">
+								<textarea class="form-control" id="comment" name="comment" placeholder="Write your comment here" rows="4"></textarea>
+							</div>
+							<div class="col-md-12">
+								<label class="example-send-yourself-copy">
+								    <input type="checkbox">
+								    <span class="label-body">Save my name, email, and website in this browser for the next time I comment.</span>
+								</label>
+							</div>
+							<div class="col-md-12">
+								<div class="d-grid">
+									<input class="btn btn-dark btn-lg" type="submit" value="Submit →">
+								</div>
+							</div>
+						</div>
+
+					</form>
+				</section>
+
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<footer id="footer" class="padding-xlarge">
+	<div class="container">
+		<div class="row">
+			<div class="footer-menu col-md-4">
+				<div class="footer-intro">					
+					<a href="#" class="logo"><img src="images/books.jpeg" width="320" alt="Image" class="img-fluid"></a>
+				</div>
+				<div class="subscribe">
+					<p>Subscribe to newsletter to get some updates related with marketing, online book selling and more.</p>
+					<input type="text" name="email" placeholder="Write Your Email Address">
+					<button class="btn btn-primary">Subscribe</button>
+				</div>
+			</div>
+
+			<div class="footer-menu col-md-2">
+				<ul class="menu-list">
+					<li class="menu-item"><a href="#">Home</a></li>
+					<li class="menu-item"><a href="#">Books</a></li>
+					<li class="menu-item"><a href="#">Authors</a></li>
+					<li class="menu-item"><a href="#">Help</a></li>
+				</ul>
+			</div>
+
+			
+
+			<div class="footer-menu col-md-4">
+				<div class="footer-address">
+					<p>Just feel free to contact if you wanna collaborate with Us, or simply have a conversation.</p>
+					<div class="mail-address">
+						 <a href="mailto:  support@dlbookstore.com"><font size=4>support@dlbookstore.com</font></a>
+						 
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>	
+
+<div id="footer-bottom" class="padding-medium no-padding-bottom">
+	<div class="container">
+		<div class="row">			
+			<div class="col-md-6">
+				<div class="socila-links">
+					<ul>
+						<li><a href="#"><i class="icon icon-facebook"></i></a></li>
+						<li><a href="#"><i class="icon icon-twitter"></i></a></li>
+						<li><a href="#"><i class="icon icon-behance-square"></i></a></li>
+						<li><a href="#"><i class="icon icon-youtube-play"></i></a></li>
+						<li><a href="#"><i class="icon icon-pinterest-p"></i></a></li>
+					</ul>
+				</div>					
+			</div>
+			<div class="col-md-6 align-right">
+				<div class="copyright">
+					<p>2023. DLBookstore All rights reserved. Dev. by <a href="https://fmpiza.github.io/webfridolin" target="_blank">Fridolin</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="assets/vendor/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/chocolat/js/chocolat.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
